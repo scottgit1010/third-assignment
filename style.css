@@ -1,0 +1,492 @@
+/* specs */
+
+
+
+/*
+
+
+
+COLOR
+
+
+background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+
+FONT WEIGHTS
+
+
+100    Extra Light or Ultra Light
+200    Light or Thin
+300    Book or Demi
+400    Normal or Regular
+500    Medium
+600    Semibold, Demibold
+700    Bold
+800    Black, Extra Bold or Heavy
+900    Extra Black, Fat, Poster or Ultra Black
+
+
+SPECIFICS
+
+
+Nav: Semibold, 24px
+
+Main column width: 700px
+Sidebar width: 240px
+Gutter: 20px
+
+Post Titles - 40px, semibold
+"How I implemented Relaxr in 2 weeks and changed my life."
+"I traveled across the globe thanks to Relaxr’s Excel automation"
+
+Body text - Light 24px
+Read More - 24px semibold
+
+Sidebar headers - 32px, extra bold
+Categories list - 24px, light
+"Success stories
+Stats
+How tos
+Best of
+Business tips"
+
+About text - 22px light
+Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.
+Learn More - Semibold, 22
+
+
+
+
+*/
+
+
+
+
+/* begin body */
+
+ body {
+ 	
+ 	font-family: open sans;
+ 	margin: 0 auto;
+ }
+
+body .container {
+	background-color:#f0efef;
+}
+
+/* begin nav */
+
+.row nav {
+
+    background-color:#033048;
+    width:100%;
+    height:150px;
+    padding:;
+   
+}
+
+
+.nav-title {
+
+    font-size: 45px;
+    color: white;
+    font-weight:800 ;
+    margin: 0px 0px 0px 150px;
+}
+
+
+.row nav .three {
+
+	display:inline;
+	text-align:left;
+	
+
+}
+
+
+ nav ul li{
+    
+    list-style-type:none;
+    display:inline;
+    padding-left:50px;
+    
+}
+
+
+.nav-row{
+    font-size: 24px ;
+    color:#f9e42e;
+    font-weight:600 ;
+    margin: 0px 150px 0px 0px;
+}
+
+
+.row nav .nine {
+
+    text-align:right;
+    padding-top:40px;
+   
+
+    
+}
+
+
+
+
+/* end nav */
+
+
+
+
+
+/* begin main */
+
+
+.row main {
+
+	padding: 40px 150px 0px 150px;
+    
+}
+
+.row main .blog-container{}
+
+
+.row main .eight .blog-container {
+	margin: 0px 0px 125px 0px;
+	
+
+
+}
+
+
+.row main .eight .blog-container .blog-entry-one 
+
+{ border-bottom: 2px solid #033048; }
+
+
+
+
+
+.row main .eight .blog-container .blog-entry-two 
+{ border-bottom: 2px solid #033048; }
+
+
+
+
+.blog-container {
+
+}
+
+
+
+.blog-title {
+
+   font-size: 40px;
+   color:#033048;
+   font-weight:600 ;
+}
+
+
+.blog-image-one img {
+
+	background: url("blog_photo1.jpg") no-repeat center center;
+    height:450px;
+    width:100%;
+    
+
+}
+
+
+.blog-image-two img {
+
+	background: url("blog_photo2.jpg") no-repeat center center;
+    height:450px;
+    width:100%;
+   
+}
+
+
+.blog-text {
+
+   font-size:24px;
+   color:#606161;
+   font-weight:300;
+}
+
+
+.blog-more {
+
+   font-size:24px;
+   color:#033048;
+   font-weight:600 ;
+   text-align:right;
+}
+
+
+.blog-entry-one {}
+	
+
+.blog-entry-two {
+	
+}
+
+
+/* end blog styles */
+
+
+
+.row main .four .sidebar-container{
+     
+
+    padding: 0px 0px 0px 50px;
+
+}
+
+
+
+
+.catagories {
+
+}
+
+
+
+.cat-title {
+    font-size:32px;
+    color:#033048;
+    font-weight:800;
+}
+
+
+.cat-list li{
+    font-size:24px;
+    color:#033048;
+    font-weight:300;
+    list-style-type:none;
+}
+
+
+
+.about {
+     padding-top:30px;
+}
+
+
+.about-title {
+    font-size:32px;
+    color:#033048;
+    font-weight:800;
+}
+
+
+.about-text {
+    font-size:22px;
+    color:#033048;
+    font-weight:300 ;
+}
+
+
+.about-learn {
+    font-size:;
+    color:#033048;
+    font-weight:600 ;
+}
+
+
+
+.ad {
+	padding-top:30px;
+
+    text-align:center;
+}
+
+
+/* end sidebar styles */
+
+
+
+
+/* end main */
+
+
+
+
+
+/* begin signup */
+
+
+.row .signup {
+
+  
+    background-color:#f9e42e;
+    width:100%;
+    height:125px;
+}
+
+
+.row .signup .btn {
+	 position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #033048;
+     color: white;
+     font-weight:800;
+     font-size: 12px;
+     padding: 12px 24px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+}
+
+/* end signup */
+
+
+
+
+
+
+/* begin footer */
+
+
+
+
+
+.row footer{
+
+	background-color:#121212;
+    width:100%;
+    height:475px;
+}
+
+
+.footer-title {
+
+    font-size:45px;
+    color:#f9e42e;
+    font-weight:800;
+    text-align:center;
+    padding-top:55px;
+}
+
+
+
+.row footer .social-image {
+	text-align:center;
+	margin: 0 auto;
+	padding-top:20px;
+	padding-left
+
+}
+
+
+.footer-text {
+
+   font-size:18px;
+   color: white;
+   font-weight:600;
+   text-align:center;
+   padding-top:55px;
+}
+
+
+
+/*end footer */
+
+
+
+
+
+/* end body */
+
+
+
+
+
+
+
+
+/* grid styles */
+
+
+
+
+/* Setting up our grid */
+
+
+
+.container {
+	width: 100%; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
